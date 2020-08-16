@@ -25,15 +25,7 @@ Auth::routes();
 Auth::routes(['verify'=>true]);
 Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
 
-Route::get('/cloudapp', 'CloudappsController@index')->name('cloudapp');
-Route::post('/cloudapp/{cloudapp}','UtilizesController@store');
 
-
-Route::view('about','utils.abt')->name('about');
-//Route::get('contact','ContactFormController@create');
-Route::get('contact','ContactFormController@create')->name('contact.create');
-Route::post('contact','ContactFormController@store');
-//Route::get('contact','ContactFormController@create');
 
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
 

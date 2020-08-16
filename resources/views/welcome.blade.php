@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title></title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,17 +81,15 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    {{ config('app.name', 'Cloud MR') }}
+                    {{ config('app.name', 'Caravel') }}
                 </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://github.com/cloudmr" target="_blank">GitHub</a>
-                    <a href="{{ route('cloudapp') }}">Market</a>
-                    <a href="{{ route('contact.create') }}">Contact Us</a>
-                    <a href="{{ route('about') }}">About</a>
+                  
+                  
                 </div>
             </div>
         </div>
